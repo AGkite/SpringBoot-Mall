@@ -1,0 +1,353 @@
+2023-11-14 11:09:07.378 [main] INFO  com.newone.mall.web.MallModuleWebApplicationTests - Starting MallModuleWebApplicationTests using Java 1.8.0_351 on LAPTOP-PNSKHFGS with PID 21572 (started by newone in E:\gitee\SpringBoot-Mall\springboot-mall\mall-module-web)
+2023-11-14 11:09:07.378 [main] INFO  com.newone.mall.web.MallModuleWebApplicationTests - The following profiles are active: prod
+2023-11-14 11:09:07.876 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.newone.mall.web]' package. Please check your configuration.
+2023-11-14 11:09:09.222 [main] INFO  com.newone.mall.web.MallModuleWebApplicationTests - Started MallModuleWebApplicationTests in 2.208 seconds (JVM running for 2.792)
+2023-11-14 11:09:09.344 [main] INFO  com.newone.mall.web.MallModuleWebApplicationTests - 测试打印log
+2023-11-14 11:09:09.345 [main] INFO  com.newone.mall.web.MallModuleWebApplicationTests - 生成日志文件
+2023-11-14 11:28:53.617 [main] INFO  com.newone.mall.web.MallModuleWebApplicationTests - Starting MallModuleWebApplicationTests using Java 1.8.0_351 on LAPTOP-PNSKHFGS with PID 19240 (started by newone in E:\gitee\SpringBoot-Mall\springboot-mall\mall-module-web)
+2023-11-14 11:28:53.618 [main] INFO  com.newone.mall.web.MallModuleWebApplicationTests - The following profiles are active: prod
+2023-11-14 11:28:54.168 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.newone.mall.web]' package. Please check your configuration.
+2023-11-14 11:28:55.847 [main] INFO  com.newone.mall.web.MallModuleWebApplicationTests - Started MallModuleWebApplicationTests in 2.67 seconds (JVM running for 3.852)
+2023-11-14 11:28:56.031 [main] INFO  com.newone.mall.web.MallModuleWebApplicationTests - 测试打印log
+2023-11-14 11:28:56.031 [main] INFO  com.newone.mall.web.MallModuleWebApplicationTests - 生成日志文件
+2023-11-14 11:29:06.102 [main] INFO  com.newone.mall.web.MallModuleWebApplication - Starting MallModuleWebApplication using Java 1.8.0_351 on LAPTOP-PNSKHFGS with PID 13008 (E:\gitee\SpringBoot-Mall\springboot-mall\mall-module-web\target\classes started by newone in E:\gitee\SpringBoot-Mall\springboot-mall)
+2023-11-14 11:29:06.104 [main] INFO  com.newone.mall.web.MallModuleWebApplication - The following profiles are active: prod
+2023-11-14 11:29:06.538 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.newone.mall.web]' package. Please check your configuration.
+2023-11-14 11:29:06.798 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-11-14 11:29:06.798 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.34] using APR version [1.7.0].
+2023-11-14 11:29:06.799 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-11-14 11:29:06.799 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-11-14 11:29:06.800 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+2023-11-14 11:29:06.804 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-11-14 11:29:06.804 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-11-14 11:29:06.839 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-11-14 11:29:06.839 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 708 ms
+2023-11-14 11:29:07.770 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-14 11:29:07.778 [main] INFO  com.newone.mall.web.MallModuleWebApplication - Started MallModuleWebApplication in 1.941 seconds (JVM running for 2.565)
+2023-11-14 11:29:14.213 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-14 11:29:14.213 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-11-14 11:29:14.214 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-11-14 11:30:48.554 [main] INFO  com.newone.mall.web.MallModuleWebApplication - Starting MallModuleWebApplication using Java 1.8.0_351 on LAPTOP-PNSKHFGS with PID 11152 (E:\gitee\SpringBoot-Mall\springboot-mall\mall-module-web\target\classes started by newone in E:\gitee\SpringBoot-Mall\springboot-mall)
+2023-11-14 11:30:48.556 [main] INFO  com.newone.mall.web.MallModuleWebApplication - The following profiles are active: prod
+2023-11-14 11:30:48.948 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.newone.mall.web]' package. Please check your configuration.
+2023-11-14 11:30:49.187 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-11-14 11:30:49.187 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.34] using APR version [1.7.0].
+2023-11-14 11:30:49.187 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-11-14 11:30:49.187 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-11-14 11:30:49.189 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+2023-11-14 11:30:49.193 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-11-14 11:30:49.193 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-11-14 11:30:49.229 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-11-14 11:30:49.229 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 649 ms
+2023-11-14 11:30:50.067 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-14 11:30:50.072 [main] INFO  com.newone.mall.web.MallModuleWebApplication - Started MallModuleWebApplication in 1.781 seconds (JVM running for 2.434)
+2023-11-14 11:30:56.030 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-14 11:30:56.030 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-11-14 11:30:56.031 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[TraceId: ] 2023-11-14 14:10:39.225 [main] INFO  com.newone.mall.web.MallModuleWebApplication - Starting MallModuleWebApplication using Java 1.8.0_351 on LAPTOP-PNSKHFGS with PID 10352 (E:\gitee\SpringBoot-Mall\springboot-mall\mall-module-web\target\classes started by newone in E:\gitee\SpringBoot-Mall\springboot-mall)
+[TraceId: ] 2023-11-14 14:10:39.227 [main] INFO  com.newone.mall.web.MallModuleWebApplication - The following profiles are active: prod
+[TraceId: ] 2023-11-14 14:10:39.741 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.newone.mall.web]' package. Please check your configuration.
+[TraceId: ] 2023-11-14 14:10:39.991 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2023-11-14 14:10:39.992 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.34] using APR version [1.7.0].
+[TraceId: ] 2023-11-14 14:10:39.992 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[TraceId: ] 2023-11-14 14:10:39.992 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[TraceId: ] 2023-11-14 14:10:39.994 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+[TraceId: ] 2023-11-14 14:10:39.998 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2023-11-14 14:10:39.999 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2023-11-14 14:10:40.036 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2023-11-14 14:10:40.036 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 770 ms
+[TraceId: ] 2023-11-14 14:10:40.943 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2023-11-14 14:10:40.949 [main] INFO  com.newone.mall.web.MallModuleWebApplication - Started MallModuleWebApplication in 2.038 seconds (JVM running for 2.692)
+[TraceId: ] 2023-11-14 14:13:10.913 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2023-11-14 14:13:10.913 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2023-11-14 14:13:10.913 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[TraceId: 5c37be6b-ae07-49ed-a5e6-8e5be61340fd] 2023-11-14 14:13:10.975 [http-nio-8080-exec-1] INFO  c.newone.mall.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"admin","sex":1}, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: 5c37be6b-ae07-49ed-a5e6-8e5be61340fd] 2023-11-14 14:13:10.981 [http-nio-8080-exec-1] INFO  c.newone.mall.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 15ms, 出参: {"username":"admin","sex":1} =================================== 
+[TraceId: ] 2023-11-14 14:41:19.300 [main] INFO  com.newone.mall.web.MallModuleWebApplication - Starting MallModuleWebApplication using Java 1.8.0_351 on LAPTOP-PNSKHFGS with PID 15372 (E:\gitee\SpringBoot-Mall\springboot-mall\mall-module-web\target\classes started by newone in E:\gitee\SpringBoot-Mall\springboot-mall)
+[TraceId: ] 2023-11-14 14:41:19.302 [main] INFO  com.newone.mall.web.MallModuleWebApplication - The following profiles are active: prod
+[TraceId: ] 2023-11-14 14:41:19.853 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.newone.mall.web]' package. Please check your configuration.
+[TraceId: ] 2023-11-14 14:41:20.123 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2023-11-14 14:41:20.123 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.34] using APR version [1.7.0].
+[TraceId: ] 2023-11-14 14:41:20.123 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[TraceId: ] 2023-11-14 14:41:20.123 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[TraceId: ] 2023-11-14 14:41:20.125 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+[TraceId: ] 2023-11-14 14:41:20.131 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2023-11-14 14:41:20.131 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2023-11-14 14:41:20.171 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2023-11-14 14:41:20.171 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 836 ms
+[TraceId: ] 2023-11-14 14:41:21.050 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2023-11-14 14:41:21.055 [main] INFO  com.newone.mall.web.MallModuleWebApplication - Started MallModuleWebApplication in 2.078 seconds (JVM running for 2.785)
+[TraceId: ] 2023-11-14 14:41:32.204 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2023-11-14 14:41:32.204 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2023-11-14 14:41:32.205 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[TraceId: aa287563-edac-4ede-b010-14157ac14640] 2023-11-14 14:41:32.332 [http-nio-8080-exec-2] INFO  c.newone.mall.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"admin","sex":1}, org.springframework.validation.BeanPropertyBindingResult: 0 errors, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: aa287563-edac-4ede-b010-14157ac14640] 2023-11-14 14:41:32.343 [http-nio-8080-exec-2] INFO  c.newone.mall.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 34ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+[TraceId: ] 2023-11-14 14:43:34.103 [main] INFO  com.newone.mall.web.MallModuleWebApplication - Starting MallModuleWebApplication using Java 1.8.0_351 on LAPTOP-PNSKHFGS with PID 20444 (E:\gitee\SpringBoot-Mall\springboot-mall\mall-module-web\target\classes started by newone in E:\gitee\SpringBoot-Mall\springboot-mall)
+[TraceId: ] 2023-11-14 14:43:34.105 [main] INFO  com.newone.mall.web.MallModuleWebApplication - The following profiles are active: prod
+[TraceId: ] 2023-11-14 14:43:34.549 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.newone.mall.web]' package. Please check your configuration.
+[TraceId: ] 2023-11-14 14:43:34.804 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2023-11-14 14:43:34.804 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.34] using APR version [1.7.0].
+[TraceId: ] 2023-11-14 14:43:34.804 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[TraceId: ] 2023-11-14 14:43:34.804 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[TraceId: ] 2023-11-14 14:43:34.806 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+[TraceId: ] 2023-11-14 14:43:34.810 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2023-11-14 14:43:34.811 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2023-11-14 14:43:34.846 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2023-11-14 14:43:34.846 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 711 ms
+[TraceId: ] 2023-11-14 14:43:35.716 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2023-11-14 14:43:35.721 [main] INFO  com.newone.mall.web.MallModuleWebApplication - Started MallModuleWebApplication in 1.921 seconds (JVM running for 2.611)
+[TraceId: ] 2023-11-14 14:43:40.630 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2023-11-14 14:43:40.630 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2023-11-14 14:43:40.631 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[TraceId: dd2b040e-cb77-466e-9b07-6ad4cbae4df8] 2023-11-14 14:43:40.749 [http-nio-8080-exec-2] INFO  c.newone.mall.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"admin","sex":-1}, org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'user' on field 'sex': rejected value [-1]; codes [Min.user.sex,Min.sex,Min.java.lang.Integer,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.sex,sex]; arguments []; default message [sex],0]; default message [最小不能小于0], 请求类: TestController, 请求方法: test =================================== 
+[TraceId: dd2b040e-cb77-466e-9b07-6ad4cbae4df8] 2023-11-14 14:43:40.756 [http-nio-8080-exec-2] INFO  c.newone.mall.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 22ms, 出参: {"success":false,"message":"最小不能小于0","errorCode":null,"data":null} =================================== 
+[TraceId: 3a00e3f2-d6ac-4a8d-9c38-e6e26d55646d] 2023-11-14 14:44:47.677 [http-nio-8080-exec-5] INFO  c.newone.mall.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":null,"sex":-1}, org.springframework.validation.BeanPropertyBindingResult: 2 errors
+Field error in object 'user' on field 'sex': rejected value [-1]; codes [Min.user.sex,Min.sex,Min.java.lang.Integer,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.sex,sex]; arguments []; default message [sex],0]; default message [最小不能小于0]
+Field error in object 'user' on field 'username': rejected value [null]; codes [NotBlank.user.username,NotBlank.username,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.username,username]; arguments []; default message [username]]; default message [不能为空], 请求类: TestController, 请求方法: test =================================== 
+[TraceId: 3a00e3f2-d6ac-4a8d-9c38-e6e26d55646d] 2023-11-14 14:44:47.677 [http-nio-8080-exec-5] INFO  c.newone.mall.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 0ms, 出参: {"success":false,"message":"最小不能小于0, 不能为空","errorCode":null,"data":null} =================================== 
+[TraceId: 05153dbd-34ac-4010-84f3-831128b6ac5a] 2023-11-14 14:46:19.941 [http-nio-8080-exec-8] INFO  c.newone.mall.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"123","sex":5}, org.springframework.validation.BeanPropertyBindingResult: 0 errors, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: 05153dbd-34ac-4010-84f3-831128b6ac5a] 2023-11-14 14:46:19.941 [http-nio-8080-exec-8] INFO  c.newone.mall.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+[TraceId: ] 2023-11-14 14:47:13.677 [main] INFO  com.newone.mall.web.MallModuleWebApplication - Starting MallModuleWebApplication using Java 1.8.0_351 on LAPTOP-PNSKHFGS with PID 16832 (E:\gitee\SpringBoot-Mall\springboot-mall\mall-module-web\target\classes started by newone in E:\gitee\SpringBoot-Mall\springboot-mall)
+[TraceId: ] 2023-11-14 14:47:13.679 [main] INFO  com.newone.mall.web.MallModuleWebApplication - The following profiles are active: prod
+[TraceId: ] 2023-11-14 14:47:14.191 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.newone.mall.web]' package. Please check your configuration.
+[TraceId: ] 2023-11-14 14:47:14.481 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2023-11-14 14:47:14.482 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.34] using APR version [1.7.0].
+[TraceId: ] 2023-11-14 14:47:14.482 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[TraceId: ] 2023-11-14 14:47:14.482 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[TraceId: ] 2023-11-14 14:47:14.484 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+[TraceId: ] 2023-11-14 14:47:14.490 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2023-11-14 14:47:14.490 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2023-11-14 14:47:14.538 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2023-11-14 14:47:14.538 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 825 ms
+[TraceId: ] 2023-11-14 14:47:15.430 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2023-11-14 14:47:15.436 [main] INFO  com.newone.mall.web.MallModuleWebApplication - Started MallModuleWebApplication in 2.108 seconds (JVM running for 2.936)
+[TraceId: ] 2023-11-14 14:47:21.905 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2023-11-14 14:47:21.905 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2023-11-14 14:47:21.905 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[TraceId: da0cc646-ef99-4b70-b252-1ed73ed4a302] 2023-11-14 14:47:22.014 [http-nio-8080-exec-2] INFO  c.newone.mall.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"123","sex":5}, org.springframework.validation.BeanPropertyBindingResult: 0 errors, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: da0cc646-ef99-4b70-b252-1ed73ed4a302] 2023-11-14 14:47:22.022 [http-nio-8080-exec-2] INFO  c.newone.mall.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 24ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+[TraceId: ] 2023-11-14 15:04:30.915 [main] INFO  com.newone.mall.web.MallModuleWebApplication - Starting MallModuleWebApplication using Java 1.8.0_351 on LAPTOP-PNSKHFGS with PID 16692 (E:\gitee\SpringBoot-Mall\springboot-mall\mall-module-web\target\classes started by newone in E:\gitee\SpringBoot-Mall\springboot-mall)
+[TraceId: ] 2023-11-14 15:04:30.917 [main] INFO  com.newone.mall.web.MallModuleWebApplication - The following profiles are active: prod
+[TraceId: ] 2023-11-14 15:04:31.428 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.newone.mall.web]' package. Please check your configuration.
+[TraceId: ] 2023-11-14 15:04:31.746 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2023-11-14 15:04:31.747 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.34] using APR version [1.7.0].
+[TraceId: ] 2023-11-14 15:04:31.747 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[TraceId: ] 2023-11-14 15:04:31.747 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[TraceId: ] 2023-11-14 15:04:31.749 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+[TraceId: ] 2023-11-14 15:04:31.754 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2023-11-14 15:04:31.754 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2023-11-14 15:04:31.799 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2023-11-14 15:04:31.799 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 827 ms
+[TraceId: ] 2023-11-14 15:04:32.629 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2023-11-14 15:04:32.634 [main] INFO  com.newone.mall.web.MallModuleWebApplication - Started MallModuleWebApplication in 2.001 seconds (JVM running for 2.731)
+[TraceId: ] 2023-11-14 15:04:49.079 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2023-11-14 15:04:49.079 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2023-11-14 15:04:49.080 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[TraceId: b15342e2-92f0-4f31-bc1d-d1a5e6bb4006] 2023-11-14 15:04:49.251 [http-nio-8080-exec-1] INFO  c.newone.mall.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"123","sex":5}, org.springframework.validation.BeanPropertyBindingResult: 0 errors, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: ] 2023-11-14 15:04:49.262 [http-nio-8080-exec-1] WARN  c.n.mall.common.exception.GlobalExceptionHandler - /test request fail, errorCode: 20000, errorMessage: 该产品不存在（测试使用）
+[TraceId: 16502232-2b57-4596-a4a5-368e65688358] 2023-11-14 15:04:56.206 [http-nio-8080-exec-3] INFO  c.newone.mall.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"123","sex":5}, org.springframework.validation.BeanPropertyBindingResult: 0 errors, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: ] 2023-11-14 15:04:56.206 [http-nio-8080-exec-3] WARN  c.n.mall.common.exception.GlobalExceptionHandler - /test request fail, errorCode: 20000, errorMessage: 该产品不存在（测试使用）
+[TraceId: ] 2023-11-14 15:05:23.751 [main] INFO  com.newone.mall.web.MallModuleWebApplication - Starting MallModuleWebApplication using Java 1.8.0_351 on LAPTOP-PNSKHFGS with PID 19536 (E:\gitee\SpringBoot-Mall\springboot-mall\mall-module-web\target\classes started by newone in E:\gitee\SpringBoot-Mall\springboot-mall)
+[TraceId: ] 2023-11-14 15:05:23.753 [main] INFO  com.newone.mall.web.MallModuleWebApplication - The following profiles are active: prod
+[TraceId: ] 2023-11-14 15:05:24.254 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.newone.mall.web]' package. Please check your configuration.
+[TraceId: ] 2023-11-14 15:05:24.509 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2023-11-14 15:05:24.510 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.34] using APR version [1.7.0].
+[TraceId: ] 2023-11-14 15:05:24.510 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[TraceId: ] 2023-11-14 15:05:24.510 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[TraceId: ] 2023-11-14 15:05:24.512 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+[TraceId: ] 2023-11-14 15:05:24.527 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2023-11-14 15:05:24.527 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2023-11-14 15:05:24.563 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2023-11-14 15:05:24.563 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 781 ms
+[TraceId: ] 2023-11-14 15:05:25.424 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2023-11-14 15:05:25.429 [main] INFO  com.newone.mall.web.MallModuleWebApplication - Started MallModuleWebApplication in 1.975 seconds (JVM running for 2.674)
+[TraceId: ] 2023-11-14 15:05:46.105 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2023-11-14 15:05:46.106 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2023-11-14 15:05:46.106 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[TraceId: 15fcb16e-74b1-4285-ad2a-5dfff2182a7e] 2023-11-14 15:05:46.213 [http-nio-8080-exec-2] INFO  c.newone.mall.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"123","sex":5}, org.springframework.validation.BeanPropertyBindingResult: 0 errors, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: ] 2023-11-14 15:05:46.220 [http-nio-8080-exec-2] WARN  c.n.mall.common.exception.GlobalExceptionHandler - /test request fail, errorCode: 20000, errorMessage: 该产品不存在（测试使用）
+[TraceId: ] 2023-11-14 15:09:52.189 [main] INFO  com.newone.mall.web.MallModuleWebApplication - Starting MallModuleWebApplication using Java 1.8.0_351 on LAPTOP-PNSKHFGS with PID 6692 (E:\gitee\SpringBoot-Mall\springboot-mall\mall-module-web\target\classes started by newone in E:\gitee\SpringBoot-Mall\springboot-mall)
+[TraceId: ] 2023-11-14 15:09:52.191 [main] INFO  com.newone.mall.web.MallModuleWebApplication - The following profiles are active: prod
+[TraceId: ] 2023-11-14 15:09:52.691 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.newone.mall.web]' package. Please check your configuration.
+[TraceId: ] 2023-11-14 15:09:52.938 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2023-11-14 15:09:52.938 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.34] using APR version [1.7.0].
+[TraceId: ] 2023-11-14 15:09:52.939 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[TraceId: ] 2023-11-14 15:09:52.939 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[TraceId: ] 2023-11-14 15:09:52.940 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+[TraceId: ] 2023-11-14 15:09:52.945 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2023-11-14 15:09:52.945 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2023-11-14 15:09:52.978 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2023-11-14 15:09:52.978 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 759 ms
+[TraceId: ] 2023-11-14 15:09:53.807 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2023-11-14 15:09:53.811 [main] INFO  com.newone.mall.web.MallModuleWebApplication - Started MallModuleWebApplication in 1.927 seconds (JVM running for 2.534)
+[TraceId: ] 2023-11-14 15:10:03.119 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2023-11-14 15:10:03.119 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2023-11-14 15:10:03.120 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[TraceId: 909f27b4-e482-44cf-a9d5-1064f0330f21] 2023-11-14 15:10:03.315 [http-nio-8080-exec-1] INFO  c.newone.mall.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"123","sex":5}, org.springframework.validation.BeanPropertyBindingResult: 0 errors, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: ] 2023-11-14 15:10:03.333 [http-nio-8080-exec-1] ERROR c.n.mall.common.exception.GlobalExceptionHandler - /test request error, 
+java.lang.ArithmeticException: / by zero
+	at com.newone.mall.web.controller.TestController.test(TestController.java:26)
+	at com.newone.mall.web.controller.TestController$$FastClassBySpringCGLIB$$3241d007.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.newone.mall.common.aspect.ApiOperationLogAspect.doAround(ApiOperationLogAspect.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.newone.mall.web.controller.TestController$$EnhancerBySpringCGLIB$$fff8ca85.test(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+[TraceId: ] 2023-11-14 15:19:12.698 [main] INFO  com.newone.mall.web.MallModuleWebApplication - Starting MallModuleWebApplication using Java 1.8.0_351 on LAPTOP-PNSKHFGS with PID 17192 (E:\gitee\SpringBoot-Mall\springboot-mall\mall-module-web\target\classes started by newone in E:\gitee\SpringBoot-Mall\springboot-mall)
+[TraceId: ] 2023-11-14 15:19:12.700 [main] INFO  com.newone.mall.web.MallModuleWebApplication - The following profiles are active: prod
+[TraceId: ] 2023-11-14 15:19:13.185 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.newone.mall.web]' package. Please check your configuration.
+[TraceId: ] 2023-11-14 15:19:13.441 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2023-11-14 15:19:13.441 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.34] using APR version [1.7.0].
+[TraceId: ] 2023-11-14 15:19:13.441 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[TraceId: ] 2023-11-14 15:19:13.441 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[TraceId: ] 2023-11-14 15:19:13.443 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+[TraceId: ] 2023-11-14 15:19:13.448 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2023-11-14 15:19:13.448 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2023-11-14 15:19:13.497 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2023-11-14 15:19:13.497 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 766 ms
+[TraceId: ] 2023-11-14 15:19:14.368 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2023-11-14 15:19:14.374 [main] INFO  com.newone.mall.web.MallModuleWebApplication - Started MallModuleWebApplication in 2.173 seconds (JVM running for 2.828)
+[TraceId: ] 2023-11-14 15:19:26.878 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2023-11-14 15:19:26.878 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2023-11-14 15:19:26.879 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[TraceId: ebd693fe-e305-4b95-8c63-15cd457f780f] 2023-11-14 15:19:26.976 [http-nio-8080-exec-1] INFO  c.newone.mall.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"123","sex":5}, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: ] 2023-11-14 15:19:26.984 [http-nio-8080-exec-1] ERROR c.n.mall.common.exception.GlobalExceptionHandler - /test request error, 
+java.lang.ArithmeticException: / by zero
+	at com.newone.mall.web.controller.TestController.test(TestController.java:26)
+	at com.newone.mall.web.controller.TestController$$FastClassBySpringCGLIB$$3241d007.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.newone.mall.common.aspect.ApiOperationLogAspect.doAround(ApiOperationLogAspect.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.newone.mall.web.controller.TestController$$EnhancerBySpringCGLIB$$fff8ca85.test(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
