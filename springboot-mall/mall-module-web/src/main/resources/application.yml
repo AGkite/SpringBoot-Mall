@@ -1,3 +1,15 @@
 spring:
   profiles:
     active: dev
+
+jwt:
+  # 签发人
+  issuer: newone
+  # 秘钥
+  secret: uJDZw3DfufX2eA/1zgXnlO1mkPTRxuljP83kI3gaYpUgdqoSg4Ej/TvMsth6X/4avyAF8iifrdJitOb6mNtlSg==
+  # token 过期时间（单位：分钟） 24*60
+  tokenExpireTime: 1440
+  # token 请求头中的 key 值
+  tokenHeaderKey: Authorization
+  # token 请求头中的 value 值前缀
+  tokenPrefix: Bearer

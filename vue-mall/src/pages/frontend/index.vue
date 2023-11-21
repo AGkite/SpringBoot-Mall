@@ -30,7 +30,7 @@
                         placeholder="请输入关键词...">
                 </div>
                 <!-- 登录 -->
-                <div class="text-gray-900 ml-1 mr-1 hover:text-blue-700">登录</div>
+                <div class="text-gray-900 ml-1 mr-1 hover:text-blue-700"  @click="$router.push('/login')">登录</div>
                 <button data-collapse-toggle="navbar-search" type="button"
                     class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                     aria-controls="navbar-search" aria-expanded="false">
@@ -83,6 +83,7 @@
 <script setup>
 import { onMounted } from 'vue'
 import { initCollapses } from 'flowbite'
+
 
 // 初始化 flowbit 相关组件
 onMounted(() => {

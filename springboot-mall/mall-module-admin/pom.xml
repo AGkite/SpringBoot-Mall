@@ -20,6 +20,10 @@
 			<artifactId>mall-module-common</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>com.newone.mall</groupId>
+			<artifactId>mall-module-jwt</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
@@ -34,6 +38,12 @@
 			<groupId>com.github.xiaoymin</groupId>
 			<artifactId>knife4j-openapi2-spring-boot-starter</artifactId>
 		</dependency>
+		<!-- Spring Security -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+
 	</dependencies>
 
 </project>

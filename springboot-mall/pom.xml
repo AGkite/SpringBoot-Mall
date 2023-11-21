@@ -19,6 +19,8 @@
         <module>mall-module-web</module>
         <module>mall-module-admin</module>
         <module>mall-module-common</module>
+        <!-- JWT 模块 -->
+        <module>mall-module-jwt</module>
     </modules>
     <!--版本号统一管理-->
     <properties>
@@ -40,6 +42,7 @@
         <p6spy.version>3.9.1</p6spy.version>
         <jackson.version>2.15.2</jackson.version>
         <knife4j.version>4.3.0</knife4j.version>
+        <jjwt.version>0.11.2</jjwt.version>
 
     </properties>
 
@@ -56,6 +59,12 @@
                 <artifactId>mall-module-common</artifactId>
                 <version>${revision}</version>
             </dependency>
+            <dependency>
+                <groupId>com.newone.mall</groupId>
+                <artifactId>mall-module-jwt</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
             <!-- Mybatis Plus -->
             <dependency>
                 <groupId>com.baomidou</groupId>
@@ -89,6 +98,22 @@
                 <groupId>com.github.xiaoymin</groupId>
                 <artifactId>knife4j-openapi2-spring-boot-starter</artifactId>
                 <version>${knife4j.version}</version>
+            </dependency>
+            <!--   JWT   -->
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt-api</artifactId>
+                <version>${jjwt.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt-impl</artifactId>
+                <version>${jjwt.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt-jackson</artifactId>
+                <version>${jjwt.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

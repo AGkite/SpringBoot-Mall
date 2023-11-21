@@ -5,7 +5,7 @@ spring:
     #  指定数据库驱动类
     driver-class-name: com.p6spy.engine.spy.P6SpyDriver
     # 数据库连接信息
-    url: jdbc:p6spy:mysql://127.0.0.1:3306/springboot-mall?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
+    url: jdbc:p6spy:mysql://127.0.0.1:3306/springboot_mall?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
     username: root
     password: 123456
     hikari: # 数据库连接池使用 Hikari
@@ -17,3 +17,8 @@ spring:
       max-lifetime: 1800000 # 连接在连接池中的最大存活时间，超过这个时间会被强制关闭。
       connection-timeout: 30000 # 连接的超时时间
       connection-test-query: SELECT 1 # 用于测试连接是否可用的SQL查询
+
+  security:
+    user:
+      name: admin
+      password: 123456
