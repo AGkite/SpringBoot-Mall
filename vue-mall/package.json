@@ -14,8 +14,12 @@
     "axios": "^1.6.2",
     "element-plus": "^2.4.2",
     "flowbite": "^2.1.1",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persistedstate": "^3.2.0",
+    "swiper": "^8.4.7",
     "universal-cookie": "^6.1.1",
     "vue": "^3.3.4",
+    "vue-awesome-swiper": "^5.0.1",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {

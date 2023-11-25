@@ -12,7 +12,7 @@ import java.time.LocalTime;
 
 @Data
 @ApiModel(value = "用户实体类")
-public class User {
+public class TestUser {
     // 用户名
     @NotBlank
     private String username;

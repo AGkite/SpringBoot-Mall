@@ -1,5 +1,5 @@
 <template>
-    <div class="grid grid-cols-2 h-screen">
+    <div class="grid grid-cols-2 h-[595px]">
         <!-- 默认占两列，order 用于指定排列顺序，md 用于适配非移动端（PC 端） -->
         <div class="col-span-2 order-2 p-10 md:col-span-1 md:order-1 bg-black">
             <!-- 指定为 flex 布局，并设置为屏幕垂直水平居中，高度为 100% -->
@@ -50,7 +50,10 @@ import { login } from '@/api/admin/user'
 import { ref,reactive } from 'vue' 
 import { useRouter } from 'vue-router'
 import { setToken } from '@/composables/auth'
+import { useUserStore } from '@/stores/user'
 
+//Store
+const userStore = useUserStore()
 //路由
 const router = useRouter()
 
@@ -63,7 +66,6 @@ const form = reactive({
 const formRef = ref(null)
 // 登录
 const onSubmit = () => {
-    console.log('登录')
     formRef.value.validate((valid) => {
         if (!valid) {
             console.log('表单验证不通过')
@@ -73,7 +75,6 @@ const onSubmit = () => {
         //loading.value = true
         //调用登录接口
         login(form.username, form.password).then((res) => {
-            console.log(res)
             //判断是否成功
             if (res.data.success == true) {
                 //showMessage('登陆成功')
@@ -83,11 +84,11 @@ const onSubmit = () => {
                 setToken(token)
 
                 //获取用户信息，并存储到全局状态中
-                //userStore.setUserInfo()
+                userStore.setUserInfo()
 
-                //跳转到后台首页
+                //跳转到首页
                 router.push('/index')
-                console.log('111')
+        
             } else {
                 let message = res.message
                 //showMessage(message, 'error')
