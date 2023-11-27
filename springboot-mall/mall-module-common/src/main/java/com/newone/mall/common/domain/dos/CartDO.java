@@ -1,12 +1,14 @@
 package com.newone.mall.common.domain.dos;
 
 import com.baomidou.mybatisplus.annotation.*;
+import lombok.Builder;
 import lombok.Data;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Data
+@Builder
 @TableName("shopping_cart")
 public class CartDO {
     @TableId(type = IdType.AUTO)

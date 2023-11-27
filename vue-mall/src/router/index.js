@@ -1,6 +1,8 @@
 import Index from '@/pages/frontend/index.vue'
 import Login from '@/pages/frontend/login.vue'
 import Detail from '@/components/ProductDetail.vue'
+import Cart from '@/pages/frontend/cart.vue'
+import Category from '@/pages/frontend/category.vue'
 import { createRouter, createWebHashHistory } from 'vue-router'
 
 // 统一在这里声明所有路由
@@ -32,6 +34,20 @@ const routes = [
         component: Detail,
         meta: {
             title: 'ProductDetail 商品详情'
+        }
+    },
+    {
+        path: '/cart',
+        component: Cart,
+        meta: {
+            title: 'Cart 购物车'
+        }
+    },
+    {
+        path: '/category',
+        component: Category,
+        meta: {
+            title: 'Category 商品分类'
         }
     }
 ]

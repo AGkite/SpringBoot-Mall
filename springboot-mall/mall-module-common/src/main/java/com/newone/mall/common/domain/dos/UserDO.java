@@ -17,7 +17,7 @@ import java.time.LocalDateTime;
 @TableName("users")
 public class UserDO {
     @TableId(type = IdType.AUTO)
-    private Long userId;
+    private Integer userId;
     private String username;
     private String password;
     private String phone;

@@ -12,8 +12,11 @@
       <p class="product-price">{{ `$${product.price.toFixed(2)}` }}</p>
       <p class="product-stock">{{ `库存: ${product.stock}` }}</p>
 
+      <!-- 购物数量选择 -->
+      <el-input-number v-model="quantity" :min="1" :max="product.stock" class="product-quantity"/>
+      
       <!-- 加入购物车 -->
-      <button @click="addToCart" class="add-to-cart-button">加入购物车</button>
+      <button @click="goToCart" class="add-to-cart-button">加入购物车</button>
     </div>
   </div>
 </template> 
@@ -21,16 +24,19 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import { getOneProduct } from '@/api/frontend/product'
+import { addToCart } from '@/api/frontend/cart'
 import { useRoute } from 'vue-router'
+import router from '@/router';
 
 const route = useRoute()
+const quantity = ref(1)
 const product = ref({
   productId: 0,
   productName: "",
   description: "",
   category: "",
   price: 0,
-  stock: 0,
+  stock: 10,
   image: ""
 })
 
@@ -43,8 +49,15 @@ onMounted(async () => {
   }
 })
 
-const addToCart = () => {
-  console.log("Product added to cart:", product.value)
+const goToCart = async () => {
+  try {
+    // 调用 addToCart API，传递商品ID、数量等必要数据
+    await addToCart(product.value.productId, quantity.value)
+    // 成功添加到购物车后，跳转到购物车页面
+    router.push('/cart');
+  } catch (error) {
+    console.error('添加到购物车错误:', error);
+  }
 }
 </script>
 
@@ -76,29 +89,33 @@ const addToCart = () => {
 .product-name {
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 
 .product-description {
   font-size: large;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 
 .product-category {
   color: #666;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 
 .product-price {
   color: rgb(247, 97, 43);
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 
 .product-stock {
   color: green;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
+}
+.product-quantity {
+  display: block;
+  margin-bottom: 24px;
 }
 
 .add-to-cart-button {
