@@ -10,15 +10,15 @@
 
         <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
           <!-- 使用v-for动态渲染产品列表 -->
-          <div v-for="product in products" :key="product.productId" class="group border-2 rounded-md p-2" @click="goProductDetailPage(product.productId)">
-              <div
-                class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                <!-- 使用产品的图片字段 -->
-                <img :src="product.image" :alt="product.productName"
-                  class="h-full w-full object-cover object-center group-hover:opacity-75">
-              </div>
-              <h3 class="mt-4 text-base text-gray-700 font-mono">{{ product.productName }}</h3>
-              <p class="mt-1 text-lg font-medium text-gray-900 text-rose-500">{{ `$${product.price}` }}</p>
+          <div v-for="product in products" :key="product.productId" class="group border-2 rounded-md p-2"
+            @click="goProductDetailPage(product.productId)">
+            <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+              <!-- 使用产品的图片字段 -->
+              <img :src="product.image" :alt="product.productName"
+                class="h-full w-full object-cover object-center group-hover:opacity-75">
+            </div>
+            <h3 class="mt-4 text-base text-gray-700 font-mono">{{ product.productName }}</h3>
+            <p class="mt-1 text-lg font-medium text-gray-900 text-rose-500">{{ `$${product.price}` }}</p>
           </div>
         </div>
       </div>
@@ -32,12 +32,12 @@ import IndexSwiper from '@/components/IndexSwiper.vue'
 import ListBar from '@/components/ListBar.vue'
 import { getAllProducts } from '@/api/frontend/product'
 import { useRouter } from 'vue-router'
-				
+
 const router = useRouter()
 
 // 跳转产品详情页
 const goProductDetailPage = (productId) => {
-    router.push('/detail/' + productId)
+  router.push('/detail/' + productId)
 }
 // 用于保存产品列表的数据
 const products = ref([]);
@@ -57,7 +57,7 @@ onMounted(async () => {
 </script>
 
 <style scoped>
-.main {
+/* .main {
   background-color: white;
-}
+} */
 </style>
