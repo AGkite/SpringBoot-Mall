@@ -1,7 +1,10 @@
 <template>
     <div class="container mx-auto p-4">
         <h1 class="text-3xl font-semibold mb-4">购物车</h1>
-        <div v-if="cartItems.length === 0" class="text-gray-600">
+        <div v-if="!isLogined">
+            未登录!请先登录账号！
+        </div>
+        <div v-else-if="cartItems.length === 0" class="text-gray-600">
             购物车是空的
         </div>
         <div v-else>
@@ -29,7 +32,7 @@
                         <div>
                             <span class="text-gray-600">总计：</span>
                             <span class="text-red-500">￥{{ selectedTotalAmount.toFixed(2) }}</span>
-                            <el-button type="danger">去结算</el-button>
+                            <el-button type="danger" @click="payment()">去结算</el-button>
                         </div>
                     </div>
                 </div>
@@ -43,14 +46,35 @@
 import { findCartList, deleteCartItem } from '@/api/frontend/cart';
 import { ref, onMounted, computed, watch, watchEffect } from 'vue';
 import { Delete } from '@element-plus/icons-vue';
+import { useUserStore } from '@/stores/user'
+import { showMessage } from '@/utils/util'
+import router from '../../router';
 
+const userStore = useUserStore();
 const cartItems = ref([]);
+const selectedItems = ref([]);
 
+
+// 是否登录，通过 userStore 中的 userInfo 对象是否有数据来判断
+// 获取 userInfo 对象所有属性名称的数组
+const keys = Object.keys(userStore.userInfo)
+// 若大于零，则表示用户已登录
+const isLogined = ref(keys.length > 0)
+// 监听用户登录状态
+// 监听 userStore.userInfo.username 的变化
+watch(() => userStore.userInfo.username, (newUsername) => {
+    // 当用户名变化时，执行相应的逻辑
+    isLogined.value = !!newUsername; // 或者使用其他逻辑来判断是否登录
+});
 onMounted(async () => {
     try {
-        const response = await findCartList();
-        console.log(response);
-        cartItems.value = response.data.data.map(item => ({ ...item, selected: false }));
+        if (isLogined) {
+            const response = await findCartList();
+            console.log(response);
+            cartItems.value = response.data.data.map(item => ({ ...item, selected: false }));
+        } else {
+            showMessage("未登录账号!")
+        }
     } catch (error) {
         console.error('获取购物车商品失败！', error);
     }
@@ -82,8 +106,12 @@ watch(cartItems, () => {
 });
 // 更新 hasSelect 变量
 const updateHasSelect = () => {
+    //判断有没有商品被选中
     hasSelect.value = cartItems.value.some(item => item.selected);
+    //选中了的商品信息
+    selectedItems.value = cartItems.value.filter(item => item.selected)
     console.log(hasSelect.value)
+    console.log(selectedItems.value)
 };
 // 全选状态
 let selectAll = ref(false);
@@ -105,6 +133,24 @@ const removeSelected = () => {
     const selectedItems = cartItems.value.filter(item => item.selected);
     // 实现删除选中商品的逻辑
 };
+
+//支付
+const payment = () => {
+    const products = selectedItems.value
+    if (hasSelect.value) {
+        let total = selectedTotalAmount.value
+        router.push({
+            path: '/payment',
+            query: { total,products }
+        }
+        )
+    } else {
+        showMessage("未选中任何商品！","warning")
+        return ;
+    }
+
+}
+
 </script>
   
 <style scoped>
@@ -128,5 +174,6 @@ const removeSelected = () => {
 .cart-item-enter,
 .cart-item-leave-to {
     opacity: 0;
-}</style>
+}
+</style>
   

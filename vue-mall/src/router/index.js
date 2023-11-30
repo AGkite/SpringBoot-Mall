@@ -4,6 +4,8 @@ import Detail from '@/components/ProductDetail.vue'
 import Cart from '@/pages/frontend/cart.vue'
 import Category from '@/pages/frontend/category.vue'
 import Register from '@/pages/frontend/register.vue'
+import FeedBack from '@/pages/frontend/feedback.vue'
+import Payment from '@/pages/frontend/payment.vue'
 import { createRouter, createWebHashHistory } from 'vue-router'
 
 // 统一在这里声明所有路由
@@ -56,6 +58,20 @@ const routes = [
         component: Category,
         meta: {
             title: 'Category 商品分类'
+        }
+    },
+    {
+        path: '/feedback',
+        component: FeedBack,
+        meta: {
+            title: 'FeedBack 反馈'
+        }
+    },
+    {
+        path: '/payment',
+        component: Payment,
+        meta: {
+            title: 'Payment 支付'
         }
     }
 ]

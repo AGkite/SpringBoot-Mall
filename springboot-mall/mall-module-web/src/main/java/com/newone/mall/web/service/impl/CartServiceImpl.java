@@ -41,41 +41,46 @@ public class CartServiceImpl implements CartService {
     @Override
     public List<CartDO> getCart() {
         UserDO user = userService.findUserByName();
-        return cartMapper.selectByUserId(user.getUserId());
+        if (user != null) {
+            return cartMapper.selectByUserId(user.getUserId());
+        }
+        return null;
     }
 
     @Override
     public int addToCart(Integer productId, int quantity) {
         UserDO user = userService.findUserByName();
+        if (user != null) {
+            // 查询用户购物车中是否已存在该商品
+            CartDO existingCartItem = cartMapper.selectOne(new QueryWrapper<CartDO>()
+                    .eq("user_id", user.getUserId())
+                    .eq("product_id", productId));
 
-        // 查询用户购物车中是否已存在该商品
-        CartDO existingCartItem = cartMapper.selectOne(new QueryWrapper<CartDO>()
-                .eq("user_id", user.getUserId())
-                .eq("product_id", productId));
+            if (existingCartItem != null) {
+                // 如果商品已存在，更新数量
+                existingCartItem.setQuantity(existingCartItem.getQuantity() + quantity);
+                existingCartItem.setModifyDate(LocalDateTime.now());
+                return cartMapper.updateById(existingCartItem);
+            } else {
+                // 如果商品不存在，插入新的购物车记录
+                Response productDO = productService.findProductById(productId);
+                ProductDO product = (ProductDO) productDO.getData();
 
-        if (existingCartItem != null) {
-            // 如果商品已存在，更新数量
-            existingCartItem.setQuantity(existingCartItem.getQuantity() + quantity);
-            existingCartItem.setModifyDate(LocalDateTime.now());
-            return cartMapper.updateById(existingCartItem);
-        } else {
-            // 如果商品不存在，插入新的购物车记录
-            Response productDO = productService.findProductById(productId);
-            ProductDO product = (ProductDO) productDO.getData();
+                CartDO cartDO = CartDO.builder()
+                        .userId(user.getUserId())
+                        .productId(productId)
+                        .productName(product.getProductName())
+                        .image(product.getImage())
+                        .quantity(quantity)
+                        .price(product.getPrice())
+                        .createDate(LocalDateTime.now())
+                        .modifyDate(LocalDateTime.now())
+                        .build();
 
-            CartDO cartDO = CartDO.builder()
-                    .userId(user.getUserId())
-                    .productId(productId)
-                    .productName(product.getProductName())
-                    .image(product.getImage())
-                    .quantity(quantity)
-                    .price(product.getPrice())
-                    .createDate(LocalDateTime.now())
-                    .modifyDate(LocalDateTime.now())
-                    .build();
-
-            return cartMapper.insert(cartDO);
+                return cartMapper.insert(cartDO);
+            }
         }
+        return -1;
     }
 
 

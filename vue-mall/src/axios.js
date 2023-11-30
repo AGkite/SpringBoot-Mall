@@ -12,10 +12,10 @@ instance.interceptors.request.use(function (config) {
     //console.log('统一添加请求头中的Token:' + token)
 
     //当token不为空时
-
+    if (token) {
         //添加请求头，key为Authorization, value值的前缀为'Bearer '
         config.headers['Authorization'] = 'Bearer ' + token
-    
+    }
 
     return config;
 }, function (error) {

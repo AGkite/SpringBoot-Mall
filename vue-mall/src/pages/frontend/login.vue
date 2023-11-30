@@ -1,10 +1,10 @@
 <template>
     <div class="grid grid-cols-2 h-[595px]">
         <!-- 默认占两列，order 用于指定排列顺序，md 用于适配非移动端（PC 端） -->
-        <div class="col-span-2 order-2 p-10 md:col-span-1 md:order-1 bg-black">
+        <div class="col-span-2 order-2 p-10 md:col-span-1 md:order-1 bg-zinc-700">
             <!-- 指定为 flex 布局，并设置为屏幕垂直水平居中，高度为 100% -->
             <div class="flex justify-center items-center h-full flex-col animate__animated animate__bounceInLeft animate__fast">
-                <h2 class="font-bold text-4xl mb-7 text-white">ShoppingMall购物商城登录</h2>
+                <h2 class="font-bold text-4xl mb-7 text-white">ShoppingMall购物商城</h2>
                 <p class="text-white">一款由 Spring Boot + Mybaits Plus + Vue 3.2 + Vite 4 开发的在线购物商城。</p>
                 <!-- 指定图片宽度为父级元素的 1/2 -->
                 <img src="@/assets/mall_login.png" class="w-1/2">
@@ -51,7 +51,7 @@ import { ref,reactive } from 'vue'
 import { useRouter } from 'vue-router'
 import { setToken } from '@/composables/auth'
 import { useUserStore } from '@/stores/user'
-
+import { showMessage } from '@/utils/util'
 //Store
 const userStore = useUserStore()
 //路由
@@ -77,7 +77,7 @@ const onSubmit = () => {
         login(form.username, form.password).then((res) => {
             //判断是否成功
             if (res.data.success == true) {
-                //showMessage('登陆成功')
+                showMessage('登陆成功')
 
                 //存储Token到Cookie中
                 let token = res.data.data.token
@@ -90,8 +90,8 @@ const onSubmit = () => {
                 router.push('/index')
         
             } else {
-                let message = res.message
-                //showMessage(message, 'error')
+                let message = res.data.message
+                showMessage(message, 'error')
             }
         })
             // .finally(() => {

@@ -17,4 +17,11 @@ public interface UserService {
      * @return {@link UserDO}
      */
     UserDO findUserByName();
+
+    /**
+     * 用户注册
+     * @param username
+     * @param password
+     */
+    void registerUser(String username, String password);
 }
