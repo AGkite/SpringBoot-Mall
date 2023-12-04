@@ -26,7 +26,7 @@
                         <div>
                             <el-checkbox v-model="selectAll" @change="updateHasSelect">全选</el-checkbox>
                             <div :class="{ 'hidden': !hasSelect }">
-                                <el-button type="danger" size="mini" @click="removeSelected">删除选中</el-button>
+                                <el-button type="danger" @click="removeSelected">删除选中</el-button>
                             </div>
                         </div>
                         <div>
@@ -137,16 +137,25 @@ const removeSelected = () => {
 //支付
 const payment = () => {
     const products = selectedItems.value
+    console.log("cart:", products)
     if (hasSelect.value) {
         let total = selectedTotalAmount.value
-        router.push({
-            path: '/payment',
-            query: { total,products }
-        }
-        )
+        // router.push({
+        //     path: '/payment',
+        //     query: { total,products }
+        // })
+        router.push(
+            {
+                name: 'selectedItems',
+                params: {
+                    total: total,
+                    selectedItems: JSON.stringify(selectedItems.value)
+                }
+            });
+
     } else {
-        showMessage("未选中任何商品！","warning")
-        return ;
+        showMessage("未选中任何商品！", "warning")
+        return;
     }
 
 }

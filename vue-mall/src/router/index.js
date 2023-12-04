@@ -6,6 +6,7 @@ import Category from '@/pages/frontend/category.vue'
 import Register from '@/pages/frontend/register.vue'
 import FeedBack from '@/pages/frontend/feedback.vue'
 import Payment from '@/pages/frontend/payment.vue'
+import Order from '@/pages/frontend/order.vue'
 import { createRouter, createWebHashHistory } from 'vue-router'
 
 // 统一在这里声明所有路由
@@ -68,10 +69,29 @@ const routes = [
         }
     },
     {
-        path: '/payment',
+        path: '/payment/:total/:selectedItems',
+        name: 'selectedItems',
         component: Payment,
+        
         meta: {
             title: 'Payment 支付'
+        }
+    },
+    {
+        path: '/order/:orderObjects',
+        name: 'order',
+        component: Order,
+        props: true,
+        meta: {
+            title: 'Order 订单'
+        }
+    },
+    {
+        path: '/order',
+        component: Order,
+        props: true,
+        meta: {
+            title: 'Order 订单'
         }
     }
 ]

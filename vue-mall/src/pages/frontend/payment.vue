@@ -25,7 +25,8 @@
                 </el-form-item>
 
                 <el-form-item label="支付金额">
-                    <span class="total">{{ $route.query.total }}元</span>
+                    <span class="total">{{ total }}元</span>
+                    <!-- <span class="total">{{ $route.query.products }}元</span> -->
                 </el-form-item>
 
                 <el-form-item>
@@ -40,6 +41,7 @@
 import { ref, onMounted } from 'vue';
 import { useUserStore } from '@/stores/user';
 import { showMessage } from '@/utils/util';
+import { addOrders } from '@/api/frontend/order';
 import SelectAddress from '@/components/Address.vue';
 import { useRoute } from 'vue-router'
 import router from '@/router'
@@ -47,30 +49,29 @@ import router from '@/router'
 const route = useRoute()
 const userStore = useUserStore();
 
-const products = ref([])
-const orderProductList = ref([])
 
+// 在组件中获取
+const total =  route.params.total;
+const products = JSON.parse(route.params.selectedItems);
+console.log(total)
+console.log(products)
 //支付方式
-const payType = ref('0')
-function selectedPayType(value) {
+const payType = ref('1')
+
+const selectedPayType = (value) => {
     payType.value = value
 }
-onMounted(async () => {
-    products.value = route.query.products
-    console.log("商品列表:",products.value)
-    //传递给后端的订单数据
-    orderProductList.value = products.value.map(product => {
-        return {
-            userId: product.userId,
-            productId: product.productId,
-            quantity: product.quantity,
-            payType: payType.value, // 这里你需要填写支付方式，可以从前端获取或者后端设置
-            totalAmount: product.price * product.quantity
-        };
-    });
-})
 
-
+//传递给后端的订单数据
+const orderProductList = products.map(product => {
+    return {
+        userId: product.userId,
+        productId: product.productId,
+        quantity: product.quantity,
+        payType: payType.value, // 这里你需要填写支付方式，可以从前端获取或者后端设置
+        totalAmount: product.price * product.quantity
+    };
+});
 
 console.log("order:", orderProductList);
 
@@ -83,7 +84,7 @@ const paymentForm = ref({
     totalAmount: '',
 });
 
-const submitPayment = () => {
+const submitPayment =  () => {
     console.log('提交支付:', {
         address: paymentForm.value.address,
         receiver: paymentForm.value.receiver,
@@ -92,8 +93,13 @@ const submitPayment = () => {
         totalAmount: paymentForm.value.totalAmount,
     });
     // 在这里可以添加支付逻辑
-
-    router.push('/order', { products })
+     addOrders(orderProductList)
+    router.push({
+        name: 'order',
+        params: {
+            orderObjects: JSON.stringify(orderProductList)
+        }
+    });
 };
 </script>
   
