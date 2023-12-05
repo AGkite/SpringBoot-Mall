@@ -1,9 +1,11 @@
+server:
+  port: 8080 # 项目运行端口，默认 8080
 spring:
   datasource:
     #  指定数据库驱动类
     driver-class-name: com.mysql.cj.jdbc.Driver
     # 数据库连接信息
-    url: jdbc:mysql://127.0.0.1:3306/springboot_mall?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
+    url: jdbc:mysql://172.18.0.1:3306/springboot_mall?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
     username: root
     password: 123456
     hikari: # 数据库连接池使用 Hikari
