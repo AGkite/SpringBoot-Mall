@@ -9,11 +9,11 @@
 
 ### 前端目录：
 
-![](images\Snipaste_2024-05-22_11-26-19.jpg)
+![](images/Snipaste_2024-05-22_11-26-19.jpg)
 
 ### 后端目录：
 
-![](images\Snipaste_2024-05-22_11-34-21.jpg)
+![](images/Snipaste_2024-05-22_11-34-21.jpg)
 
 ## 三、安装教程
 
